@@ -1,0 +1,38 @@
+body{
+    margin: 500px;
+    /* padding: 50px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: black;
+
+    
+}
+#container{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: hsl(255, 36%, 9%);
+    color: white;
+}
+button{
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: hsl(330, 50%, 92%);
+    border: none;  
+    border-radius: 20px;                 
+}
+button:hover{
+    background-color: rgb(169, 161, 156);
+}
+#diceResults{
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+#diceimg img{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+}

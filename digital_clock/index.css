@@ -1,0 +1,22 @@
+body{
+    /* background-image: url(background.jpg); */
+    background-size: cover;
+    /* background-position: center; */
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(background.jpg);
+    margin:0;
+}
+#clock_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clock{
+    font-size: 80px;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    /* text-decoration-color: rgb(160, 46, 46); */
+    color: white;
+}

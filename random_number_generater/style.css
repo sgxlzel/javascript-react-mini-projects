@@ -1,0 +1,23 @@
+body{
+    font-family: Verdana;
+    text-align: center;
+    /* margin-top: 200px; */
+
+}
+#myBtn{
+    padding: 10px 20px;
+    font-size: 2em;
+    background-color: rgb(164, 154, 218);
+    /* color: white; */
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+#mylabel{
+    font-size: 2em;
+    margin-top: 20px;
+
+}
+p{
+    font-size: 1.5em;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Gateway Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="payment-box">
+    <h2>Online Payment</h2>
+
+    <label>Select Payment Method:</label>
+    <select id="paymentMode" onchange="showFields()">
+        <option value="">-- Select --</option>
+        <option value="card">Card</option>
+        <option value="upi">UPI</option>
+        <option value="netbanking">Net Banking</option>
+    </select>
+
+    <!-- Card Payment -->
+    <div id="card" class="method">
+        <input type="text" id="cardNumber" placeholder="Card Number (16 digits)">
+        <input type="text" id="cardName" placeholder="Card Holder Name">
+        <input type="password" id="cvv" placeholder="CVV">
+    </div>
+
+    <!-- UPI Payment -->
+    <div id="upi" class="method">
+        <input type="text" id="upiId" placeholder="Enter UPI ID (example@upi)">
+    </div>
+
+    <!-- Net Banking -->
+    <div id="netbanking" class="method">
+        <select id="bank">
+            <option value="">Select Bank</option>
+            <option>SBI</option>
+            <option>HDFC</option>
+            <option>ICICI</option>
+            <option>Axis Bank</option>
+        </select>
+    </div>
+
+    <button onclick="makePayment()">Pay Now</button>
+
+    <p id="message"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

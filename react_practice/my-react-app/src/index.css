@@ -1,0 +1,95 @@
+/* .card{
+    width: 300px;
+    
+    padding: 20px;
+    margin: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    
+    align-items: center;
+    justify-content: center;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10%;
+} */
+
+
+
+/* //for digital clock */
+/* body{
+    background-image: url(assets/RIDERS.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.clock-container{
+    
+    backdrop-filter: blur(2px);
+    padding: 10px 1px;
+}
+.clock{
+    font-size: 6em;
+    font-weight: bold;
+    color: #f8efef;
+    text-align: center;
+    
+    font-family: monospace;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.701);
+} */
+
+
+/* //stopwatch */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 78%);
+    
+}
+.stopwatch{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10%;
+    margin: 30px;
+}
+.stopwatch .controls button{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(211, 37%, 27%);
+    color: white;
+    cursor: pointer;
+}
+.stopwatch .controls button:hover{
+    background-color: hsl(211, 37%, 17%);
+}
+.display{
+    font-size: 4em;
+    font-weight: bold;
+    color: hsl(211, 37%, 27%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: monospace;
+}
